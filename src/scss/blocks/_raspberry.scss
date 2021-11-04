@@ -1,0 +1,24 @@
+.foot{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(10, 112, 138);
+
+    &__par{
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    &__par-style{
+        font-family: 'Cabin', sans-serif;
+        font-size: 15px;
+        color: white;
+    }
+}
+
+
+

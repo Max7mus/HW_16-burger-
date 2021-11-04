@@ -1,0 +1,43 @@
+.wrap{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.block{
+    max-width: 360px;
+    margin: 0 0 0 20px;
+    
+    &__post{
+        
+        font-family: 'Cabin', sans-serif;
+        font-size: 14px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+
+    }
+
+    &__btn{
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #ff6033;
+        font-size: 20px;
+        font-weight: 300;
+        color: white;
+        transition: 0.7s;
+        padding: 10px;
+    }
+
+    &__btn:hover{
+        background-color: rgb(131, 19, 19);
+    }
+
+}
+
+
+

@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1260px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 55px;
+   font-family: 'Domine', serif;
+}
+
+h2{
+    font-family: 'Gluten', cursive;
+    font-size: 75px;
+    color: white;
+}
